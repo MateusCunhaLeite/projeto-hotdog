@@ -1,0 +1,217 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, green, orange);
+}
+
+header {
+    background-image: linear-gradient(to right, green, orange);
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    color: #131212;
+    text-align: center;
+    margin-top: 20px; /* Ajuste conforme necessário */
+    font-weight: bold;
+    border-bottom: 2px solid #333; /* Adiciona uma linha sólida abaixo do título */
+    padding-bottom: 10px
+}
+
+main {
+    padding: 20px;
+}
+
+.hotdogs-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.hotdog {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.hotdog img {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.hotdog h2 {
+    margin: 0;
+    color: black;
+    font-size: 30px;
+}
+
+.hotdog p {
+    margin-top: 10px;
+    color: black;
+}
+
+.sobre-container {
+    border: 1px solid black;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.menu-item {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 0 10px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.menu-item a:hover {
+    color: orange;
+}
+
+.contact-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.contact-info {
+    margin-top: 10px;
+}
+
+
+.sobre-container {
+    border: 2px solid rgb(240, 234, 234);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(218, 212, 212, 0.1);
+}
+
+
+.contact-container {
+    text-align: center;
+}
+
+#carouselExampleControls .carousel-inner {
+    display: flex; /* Usa flexbox para alinhar os itens */
+    justify-content: start; /* Centraliza os itens horizontalmente */
+    align-items: start; /* Alinha os itens verticalmente (opcional) */
+}
+
+#carouselExampleControls img {
+    max-width: 800px; /* Defina a largura máxima desejada para as imagens */
+    max-height: 500px; /* Defina a altura máxima desejada para as imagens */
+    display: block; /* Garante que a imagem seja exibida como um bloco */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+    border: 2px solid #000; /* Adiciona uma borda sólida de 2 pixels de espessura e cor preta */
+    border-radius: 5px;
+}
+
+
+
+.registro-cliente {
+    border: 1px solid black;
+    padding: 20px; /* Ajuste conforme necessário */
+    margin-bottom: 20px; /* Ajuste conforme necessário */
+}
+
+.form-group{
+    color: black;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  nav {
+    background-color: #333;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(19, 18, 18);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #131212;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+  .navbar-container {
+    background-color: #f8fafc; /* Cor de fundo da caixa */
+    padding: 10px; /* Espaçamento interno */
+    box-shadow: 0 2px 4px rgba(226, 7, 7, 0.1); /* Sombra */
+}
+
+/* Estilos para as seções */
+section {
+    margin-bottom: 50px;
+}
+
+/* Estilos para o FAQ */
+.faq-container {
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo transparente para as caixas de FAQ */
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #ddd; /* Adiciona uma borda sólida de 2px com cor cinza claro (#ddd) */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.faq-item {
+    margin-bottom: 20px;
+}
+
+.faq-item h3 {
+    margin-top: 0;
+    font-size: 20px;
+    color: #333;
+}
+
+.faq-item p {
+    margin-bottom: 0;
+    color: #666;
+}
+
+
+
+
+
